@@ -16,21 +16,21 @@ print(type(x))
 x = int(20)
 print(type(x))
 
-money_rate = 30
-money = int(20)
+money_rate = 3
+money = 2
 grand_money = money_rate * money
-print(type(grand_money))
+print(grand_money,type(grand_money))
 
 number_a = 15+15
 number_b = number_a
-print(number_b)
+print(number_b,type(number_b))
 
 a = str(type(10))
 print(a)
 
 my_result = "how are you"
 my_name = "Sergey"
-print(my_result, my_name)
+print(my_result,type(my_result),my_name,type(my_name))
 
 x = "Hello my friend"
 print(x,type(x))
