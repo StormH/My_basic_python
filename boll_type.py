@@ -25,4 +25,4 @@ print(is_true)
 
 is_true = True or True, not False
 print(is_true)
-bool(10)
+
