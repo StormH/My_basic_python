@@ -1,21 +1,19 @@
 username = input("Please tell me your name")
 result = f"Hello {username}, nice to e-meet you!"
 
-print(result)
+figure = input("Please give me a number fraction")
+answer = f"{figure}"
+print(answer,type(answer))
 
-y = input("Please give me a number fraction")
-y_1 = f"{y}"
-print(y_1,type(y_1))
+finger = int(5.5)
+print(finger,type(finger))
 
-x= int(5.9)
-print(x,type(x))
+finger **= 4 # finger = finger ** 4
+print(finger,type(finger))
 
-x_1 = 10 ** 4
-print(x_1,type(x_1))
+finger %= 3 # finger % 3
+print(finger,type(finger))
 
-x_2 = 16 ** 0.5
-print(x_2,type(x_2))
-
-x_3 = 5 % 3
-print(x_3,type(x_3))
+finger_1 = 5 ** 0.5
+print(finger_1,type(finger_1))
 
