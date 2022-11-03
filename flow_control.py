@@ -1,5 +1,5 @@
 number = float(input("enter the number"))
-number_2 = int(input(" enter the second number"))
+number_2 = float(input(" enter the second number"))
 
 print('{} + {} = '.format(number, number_2))
 print(number + number_2)
@@ -22,6 +22,9 @@ else:
 
 print(type(number))
 print(type(number_2))
+
+print(number == number_2)
+print(number != number_2)
 
 a = number or number_2
 if a < 100:
