@@ -4,20 +4,26 @@ if choice == '0':
 
 if choice in ('+', '-', '*', '/'):
     x = input("enter number 1:")
+    try:
+        x = int(x)
+    except:
+        x = float(x)
+
     y = input("enter number 2:")
+    try:
+        y = int(y)
+    except:
+        y = float(y)
 
-    z = isinstance(x,(int, float)):
-    s = isinstance(y,(int, float)):
-
-        if choice == '+':
-            print("result:", (x+y))
-        elif choice == '-':
-            print("result:", (x-y))
-        elif choice == '*':
-            print("result:", (x*y))
-        elif choice == '/':
-            if y != 0:
-                print("result:", (x/y))
+    if choice == '+':
+        print("result:", (x+y), type(x+y))
+    elif choice == '-':
+        print("result:", (x-y), type(x-y))
+    elif choice == '*':
+        print("result:", (x*y), type(x*y))
+    elif choice == '/':
+        if y != 0:
+            print("result:", (x/y),type(x/y))
         else:
             print("divided by zero!")
     else:
