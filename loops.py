@@ -45,7 +45,7 @@ while True:
         elif choice == '/':
             if y != 0:
                 print("result:", (x / y))
-        else:
-            print("divided by zero!")
+            else:
+                print("divided by zero!")
     else:
         print("Wrong input")
