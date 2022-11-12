@@ -4,12 +4,16 @@ if choice == '0':
 
 if choice in ('+', '-', '*', '/'):
     x = input("enter number 1:")
+    print(f"How many orders does the operand have?:", len(x))
+
     try:
         x = int(x)
     except:
         x = float(x)
 
     y = input("enter number 2:")
+    print(f"How many orders does the operand have?:", len(y))
+
     try:
         y = int(y)
     except:
