@@ -1,6 +1,6 @@
 txt = input("enter the words")
 
-for upper, in txt:
+for upper in txt:
     if upper.isupper():
         print(upper)
     continue
