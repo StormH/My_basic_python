@@ -1,36 +1,24 @@
-number = float(input("enter the number"))
-number_2 = float(input(" enter the second number"))
+choice = input("enter  (+, -, *, /)")
+if choice == '0':
+    print('wrong input')
 
-print('{} + {} = '.format(number, number_2))
-print(number + number_2)
+if choice in ('+', '-', '*', '/'):
+    x = input("enter number 1:")
+    y = input("enter number 2:")
 
-print('{} - {} = '.format(number, number_2))
-print(number - number_2)
+    z = isinstance(x,(int, float)):
+    s = isinstance(y,(int, float)):
 
-print('{} * {} = '.format(number, number_2))
-print(number * number_2)
-
-print('{} ** {} = '.format(number, number_2))
-print(number ** number_2)
-
-print('{} / {} = '.format(number, number_2))
-
-if number_2 == 0:
-    print('cannot divide by zero')
-else:
-    print(number / number_2)
-
-print(type(number))
-print(type(number_2))
-
-print(number == number_2)
-print(number != number_2)
-
-a = number or number_2
-if a < 100:
-    print('Low')
-elif 0 <= a <= 100:
-    print('Mid')
-else:
-    print('High')
-
+        if choice == '+':
+            print("result:", (x+y))
+        elif choice == '-':
+            print("result:", (x-y))
+        elif choice == '*':
+            print("result:", (x*y))
+        elif choice == '/':
+            if y != 0:
+                print("result:", (x/y))
+        else:
+            print("divided by zero!")
+    else:
+        print("Wrong input")
