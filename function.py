@@ -16,9 +16,9 @@
 #
 # day = t // 86400
 # hour = (t - (day * 86400)) // 3600
-# minit = (t - ((day * 86400) + (hour * 3600))) // 60
-# seconds = t - ((day * 86400) + (hour * 3600) + (minit * 60))
-# print(day, 'days', hour, ' hours', minit, 'minutes', seconds, ' seconds')
+# minute = (t - ((day * 86400) + (hour * 3600))) // 60
+# seconds = t - ((day * 86400) + (hour * 3600) + (minute * 60))
+# print(day, 'days', hour, ' hours', minute, 'minutes', seconds, ' seconds')
 
 # ################################################################
 
@@ -31,17 +31,17 @@
 # print(listsum([1,2,3,4]))
 
 ###############################################################
-list1 = [1,2,3,4]
-def summa_while(b):
-    index = 0
-    element = 0
-    while index < len(b):
-        element += b[index]
-        index += 1
-        return element
-
-task3_2 = summa_while(list1)
-print(task3_2)
+# list1 = [1,2,3,4]
+# def summa_while(b):
+#     index = 0
+#     element = 0
+#     while index < len(b):
+#         element += b[index]
+#         index += 1
+#         return element
+#
+# task3_2 = summa_while(list1)
+# print(task3_2)
 ##############################################################
 
 # list2 = [1,2,3,4,5]
@@ -56,46 +56,53 @@ print(task3_2)
 
 #############################################
 
-# def fibonachi(n):
+# def fibo(n):
 #     if n > 2:
-#         return fibonachi(n-1) + fibonachi(n-2)
+#         return fibo(n-1) + fibo(n-2)
 #     else:
 #         return 1
-# fboo = fibonachi(8)
-# print(fboo)
+# fbo = fibo(8)
+# print(fbo)
 
 ##############################################
-def tomato(func):
-    def wrapper():
-        print("помидор")
-        func()
-        return wrapper
-
-def meat(func):
-    def wrapper():
-        print("мясо")
-        func()
-        return wrapper
-
-def cheese(func):
-    def wrapper():
-        print("сыр")
-        func()
-        return wrapper
-
-def bread(func):
-    def wrapper():
-        print("хлеб")
-        func()
-        return wrapper
-def food():
-
- print()
-sandwich = bread(ingredients(sendiwich))
-sandwich()
-@tomato
-@meat
-@cheese
-@bread
-def food():
- food()
+# def tomato(func):
+#     def warapper():
+#         print("помидор")
+#         func()
+#     return warapper
+# def meat(func):
+#     def warapper():
+#         print("мясо")
+#         func()
+#     return warapper
+#
+# def cheese(func):
+#     def warapper():
+#         print("сыр")
+#         func()
+#     return warapper
+#
+# def bread(func):
+#     def warapper():
+#         print("хлеб")
+#         func()
+#     return warapper
+# def food():
+#  print()
+#
+# @tomato
+# def food():
+#     return None
+# food()
+# @meat
+# def food():
+#     return None
+# food()
+# @cheese
+# def food():
+#     return None
+# food()
+# @bread
+# def food():
+#     return None
+# food()
