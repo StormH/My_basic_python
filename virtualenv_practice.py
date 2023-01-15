@@ -13,9 +13,11 @@
 # (Envs) c:\>deactivate
 # c:\>
 #
-# (my_cool_env) c:\>pip freeze
+# (my_cool_env) c:\>pip freezecls
+
 # anyio==3.6.2
-# appdirs==1.4.4
+# appdirs==1.4.4pip
+
 # beautifulsoup4==4.11.1
 # bs4==0.0.1
 # certifi==2022.12.7
@@ -46,3 +48,6 @@
 # sniffio==1.3.0
 # soupsieve==2.3.2.post1
 # urllib3==1.26.13
+c:\>python -m venv c:\code\envs\my_http_new- # создаем виртуальный файл
+c:\>C:\Code\Envs\my_http_new\Scripts\activate.bat№ активирум наш созданный файл
+
