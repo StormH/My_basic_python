@@ -49,5 +49,5 @@
 # soupsieve==2.3.2.post1
 # urllib3==1.26.13
 c:\>python -m venv c:\code\envs\my_http_new- # создаем виртуальный файл
-c:\>C:\Code\Envs\my_http_new\Scripts\activate.bat№ активирум наш созданный файл
+c:\>C:\Code\Envs\my_http_new\Scripts\activate.bat #активирум наш созданный файл
 
