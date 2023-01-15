@@ -1,0 +1,4 @@
+departure point,departure time,destination point,arrival time,cost ticket
+earth,12:00,moon,18:00,100uah
+earth,13:00, jupiter,19:00,200uah
+earth,14:00, Mars,20:00,300uah
