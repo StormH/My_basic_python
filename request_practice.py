@@ -96,10 +96,26 @@
 # with open('new_image.png', 'wb') as f:
 #  f.write(image.content)
 
-f = open("LICENSE")
 
+# f = open("LICENSE", "r") # read
+f = open("C:\Code\Projects\My_basic_python\новый 1.txt", "r")
 print(f)
 print(f.read)
 print(f.readline)
 print(f.close)
 
+f1 = open("C:\Code\Projects\My_basic_python\новый 1.txt", "w") #  f1.write
+text = f1.write("what that , as i understood all in order")
+print(f1.close)
+
+# import os
+# list_dir = os.listdir()
+# List_d1 = os.getcwd()
+# print(f"{list_dir=}")
+# print(f"{List_d1=}")
+#
+# import sys
+# print(dir(sys))
+# print(sys.getdefaultencoding())
+# print(sys.version)
+# print(sys.path)
